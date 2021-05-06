@@ -1,0 +1,237 @@
+.cursor-pointer {
+	cursor: pointer;
+}
+.cursor-disabled {
+	cursor: not-allowed;
+}
+
+input[type=search]::-webkit-search-cancel-button {
+	-webkit-appearance: searchfield-cancel-button;
+}
+
+.font-consolas {
+	font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+/* Clearable text inputs */
+.clearable{
+	width: 100%;
+	padding-right: 24px;
+	position: relative;
+	display: inline-block;
+}
+.clearable input[type=text]{
+	width: 100%;
+	box-sizing: border-box;
+}
+.clearable__clear{
+	display: none;
+	position: absolute;
+	right:0; top:0;
+	padding: 0 8px;
+	font-style: normal;
+	font-size: 1.2em;
+	user-select: none;
+	cursor: pointer;
+}
+.clearable input::-ms-clear {  /* Remove IE default X */
+	display: none;
+}
+
+tr > td .dtlist {
+	color: #303030;
+	opacity: 0;
+	float: right;  
+}
+
+tr:hover > td .dtlist {
+	opacity: 1;
+}
+
+.table-hover-gmail tbody tr:hover {
+	box-shadow:0 8px 12px -12px #C1D5FF, inset 0px 0px 0px 1px #C1D5FF; background-color: #fbfbfb;
+}
+
+img.darken:hover {
+	filter: brightness(80%);
+}
+
+a.kis {
+	color: #0A7FBA;
+}
+a.kis:hover {
+	color: #2B1B67;
+	text-decoration: underline;
+}
+
+a.kisnd {
+	color: #111;
+}
+a.kisnd:hover {
+	color: #999;
+}
+
+li.has-treeview>ul.nav-treeview>li.nav-item>a.nav-link:hover {
+	color: #212529 !important;
+}
+
+.simplebox {
+	outline: none;
+	border: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+	border: 0;
+	outline: 0;
+	background: white !important;
+	border-bottom: 0px;
+	border-bottom: 0px;
+}
+
+.form-min {
+	border: 0;
+	outline: 0;
+	background: white !important;
+	border-bottom: 1px solid gray;
+}
+
+.form-min:focus {
+	border-bottom: 2px solid #2B1B67;
+}
+.btn-tutup {
+	color: #000;
+	background-color: #f0f0f0 !important;
+	border-color: #f0f0f0 !important;
+	box-shadow: none;
+}
+
+.btn-tutup:hover {
+	color: #fff;
+	background-color: #dc3545 !important;
+	border-color: #dc3545 !important;
+	box-shadow: none;
+}
+
+.btn-kis {
+	border-radius: 40px;
+	padding: 12px 25px;
+	color: #fff;
+	background-color: #007BFF !important;
+	border-color: #007BFF !important;
+	box-shadow: none;
+}
+
+.btn-kis:hover {
+	border-radius: 40px;
+	padding: 12px 25px;
+	color: #fff;
+	background-color: #1743A5 !important;
+	border-color: #1743A5 !important;
+	box-shadow: none;
+}
+
+.my-right-bottom {
+	position: fixed;
+	bottom: 55px;
+	right: 25px;
+	z-index: 999;
+}
+
+.btn-radius {
+	border-radius: 45px;
+}
+
+.btn-circle {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 0;
+	font-size: 12px;
+	line-height: 1.428571429;
+	border-radius: 15px;
+}
+
+.btn-circle.btn-lg {
+	width: 50px;
+	height: 50px;
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 25px;
+}
+
+.btn-circle.btn-xl {
+	padding: 10px 16px;
+	font-size: 24px;
+	line-height: 1.33;
+	border-radius: 35px;
+}
+
+
+/*.nav-drop:focus {
+	color: white !important;
+	background-color: #dc3545 !important;
+}
+*/
+div.dataTables_length, div.dataTables_info {
+	padding-left: 20px;
+}
+
+div.dataTables_paginate, div.dataTables_filter {
+	padding-right: 20px;
+}
+
+input.invalid {
+	border-bottom: 2px solid #dc3545;
+}
+
+.bg-kis {
+	background-color: #004A99 !important;
+	color: #FFF !important;
+}
+
+.btn-excel {
+	background-color: #107c41 !important;
+	color: #fff;
+}
+.btn-excel:hover {
+	background-color: #185c37 !important;
+	color: #fff;
+}
+
+.btn-pdf {
+	background-color: #d91112 !important;
+	color: #fff;
+}
+.btn-pdf:hover {
+	background-color: #bf0c04 !important;
+	color: #fff;
+}
+.text-gold {
+	color: #FFCC01;
+}
+.text-gold {
+	color: #FFCC01;
+}
+.text-silver {
+	color: #B4B8BC;
+}
+.text-bronze {
+	color: #D1A684;
+}
+
+.kis-hover:hover {
+	box-shadow:0 8px 12px -12px #C1D5FF, inset 0px 0px 0px 1px #C1D5FF; background-color: #fbfbfb;
+}
+
+.kis-hover-warning:hover {
+	box-shadow:0 8px 12px -12px #D39E00, inset 0px 0px 0px 1px #D39E00; background-color: #fbfbfb;
+}
+
+.kis-hover-danger:hover {
+	box-shadow:0 8px 12px -12px #BD2130, inset 0px 0px 0px 1px #BD2130; background-color: #fbfbfb;
+}
+
+.kis-hover-info:hover {
+	box-shadow:0 8px 12px -12px #117A8B, inset 0px 0px 0px 1px #117A8B; background-color: #fbfbfb;
+}

@@ -1,0 +1,25 @@
+{
+	"description": "",
+	"name": "codeigniter/framework",
+	"type": "project",
+	"homepage": "",
+	"license": "",
+	"support": {
+		"forum": "",
+		"wiki": "",
+		"slack": "",
+		"source": ""
+	},
+	"require": {
+		"php": ">=5.3.7",
+		"pusher/pusher-php-server": "^6.1",
+		"almasaeed2010/adminlte": "~3.1"
+	},
+	"suggest": {
+		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
+	},
+	"require-dev": {
+		"mikey179/vfsstream": "1.1.*",
+		"phpunit/phpunit": "4.* || 5.*"
+	}
+}
